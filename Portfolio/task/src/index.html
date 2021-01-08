@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="scripts.js">
+    <title>My Portfolio</title>
+
+</head>
+
+<body>
+<header class="site-header">
+    <div class="inner-header">
+        <div class="logo_container">
+            <h1>Richard Almonte,<br>
+                Software Developer</h1>
+        </div>
+
+        <nav class="nav_bar">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contact</a>
+        </nav>
+    </div>
+</header>
+<section id="about">
+    <div class="image_container">
+        <img class="image back_image" src="Images/about_background.jpg" alt="">
+        <img class="image front_image" src="Images/cover_img.jpg" alt="">
+    </div>
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Hi, I'm Richard Almonte. I'm a Computer Sciences lover.
+            I've been a Software Developer for 6 years now.
+
+            For me, programming is more like a hobby instead of a job.
+
+            Even if I've worked almost just with Microsoft technologies, i love to study new things and apply them in
+            practice.
+        </p>
+        <strong>Skills:</strong>
+        <p>C#, SQL Server, WinForms, WPF, HTML, JS, CSS</p>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="image_container">
+        <figure>
+            <img src="Images/portfolio_img.jpg" alt="This is my portfolio alternate text">
+            <figcaption>This is my Portfolio image</figcaption>
+        </figure>
+    </div>
+
+    <div class="content">
+        <h2>Portfolio</h2>
+    </div>
+    <div class="project_container">
+        <div id="project_flashCard" class="window card">
+            <h1 class="card_title">FlashCards</h1>
+            <p class="card_subtitle"> You can see the project at the following link: <a href="#">Flashcards</a></p>
+            <p class="card_description">
+                I did this project when I was studying the frontend on Hyperskill.
+                I created a web page with flip-down flash cards, learned some HTML basics and learned that CSS can
+                easily make beautiful design.
+            </p>
+
+            <button id="openCloseButton" class="open-window">Open</button>
+        </div>
+    </div>
+</section>
+
+<section id="contacts">
+    <div class="content">
+        <p>You can contact me at
+            <a href="mailto:myemail@emailserver.com">myemail@emailserver.com</a>
+        </p>
+    </div>
+</section>
+
+<footer class="site-footer">
+
+    <a href="https://github.com/username"><img src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg"
+                                               alt="my github page"> </a>
+    <a href="https://linkedin.com/username"><img src="https://www.flaticon.com/svg/static/icons/svg/145/145807.svg"
+                                                 alt="my LinkedIn page"> </a>
+
+</footer>
+</body>
+
+</html>

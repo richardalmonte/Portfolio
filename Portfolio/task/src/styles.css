@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 300px;
+}
+
+.site-header {
+    width: 100%;
+    height: 20vw;
+    display: block;
+    /*background-color: #101010;*/
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/header_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner-header {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+.nav_bar {
+    float: right;
+    height: 100%;
+}
+
+.nav_bar a {
+    height: auto;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    vertical-align: middle;
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
+
+.nav_bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav_bar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav_bar a:last-child {
+    padding-right: 0;
+}
+
+#about {
+    background-color: #CBD1D2;
+    width: 100%;
+    height: 20vw;
+    display: block;
+
+}
+
+.image_container {
+    padding: 20px;
+}
+
+.image {
+    position: absolute;
+
+}
+
+.back_image {
+    height: 250px;
+    width: 250px;
+}
+
+.front_image {
+    margin: 30px 0 0 150px;
+    width: 200px;
+    height: 210px;
+}
+
+#about .content {
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-left: 22%;
+    text-align: justify;
+    font-size: 17px;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+
+.content h2 {
+    margin: 10px;
+}
+
+.content strong {
+    padding: 10px 0;
+}
+
+.site-footer {
+    position: relative;
+    background-color: #CBD1D2;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.site-footer img {
+    width: 3%;
+    height: 3%;
+    margin: 5px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 370px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card_title {
+    color: grey;
+    font-size: 18px;
+}
+
+.card_subtitle {
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card_description {
+    text-align: center;
+    line-height: 20px;
+    color: gray;
+    width: 100%;
+}
+
+.card_subtitle a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+button:hover, .card_subtitle a:hover {
+    opacity: 0.7;
+}
